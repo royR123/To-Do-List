@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 16px; */
+    /* background: linear-gradient(34deg , black , white); */
+    background-color: black;
+    /* opacity: 0.7; */
+}
+header{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+header h1{
+    margin: auto;
+    color: white;
+
+}
+#input-text{
+    padding: 10px;
+    border: none;
+    background: linear-gradient(10deg , white , rgb(80, 81, 81)
+    );
+    font-size: large;
+}
+
+#add-btn{
+    border: none;
+    font-size: large;
+    padding: 10px;
+    background: linear-gradient(45deg , green , rgb(52, 222, 78));
+    
+}
+
+#add-btn:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 12px 2px green;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+    /* background-color: white; */
+    /* opacity: 0.4; */
+    background : linear-gradient(to left right , #ffffffff , #ffffff33);
+    backdrop-filter: blur(8px);
+    width: 400px;
+    margin: auto;
+    /* width: 300px; */
+}
+#all-tasks{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.flex-item{
+    /* font-size: large; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    /* align-items: flex-end; */
+    /* gap: 5px; */
+    /* border: 2px solid red; */
+}
+#task-desc{
+    font-size: 24px;
+    padding: 10px;
+    width: 60%;
+    border-radius: 10px 0px 0px 10px;
+    color: white;
+}
+.task-completed{
+    /* background-color: rgb(0, 121, 0); */
+    color: rgb(241, 249, 246);
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+#task-desc:hover{
+    cursor: pointer;
+}
+#del-btn{
+    width: 40%;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    background: linear-gradient(45deg ,rgb(248, 206, 206) , #ffaa69);
+    border-radius: 0 10px 10px 0;
+    color: red;
+}
+#del-btn:hover{
+    cursor: pointer;
+    /* box-shadow: 2px 2px 12px 1px red; */
+    /* border: 1px solid red; */
+    background: linear-gradient(45deg , white , rgb(253, 208, 208));
+}
+#del-btn:active{
+    border:  1px solid black ;
+}
